@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: TiltNeon;
+	src: url("/fonts/TiltNeon-Regular.ttf");
+}
+
+* {
+	font-family: TiltNeon;
+}
+
+html,
+body,
+:root {
+	height: 100%;
+}
+
+.gradient_texts {
+	background: linear-gradient(42.75deg, #FF00C7 33.71%, #AD00FF 73.08%), #FFFFFF;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
