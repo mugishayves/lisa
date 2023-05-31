@@ -11,6 +11,17 @@
 	font-family: TiltNeon;
 }
 
+::-webkit-scrollbar{
+	width: 2px;
+	height: 2px;
+}
+
+::-webkit-scrollbar-thumb{
+	width: 2px;
+	background-color: #f8f8f8;
+	height: 2px;
+}
+
 html,
 body,
 :root {
