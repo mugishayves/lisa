@@ -31,7 +31,7 @@ const Privacy = () => {
 						<Image width={200} height={200} className="rounded-full" alt="Profile" src="/images/placeholder.jpg" />
 					</div>
 					<div className='w-[75%]'>
-						<p>Personal Information</p>
+						<p className="text-2xl">Personal Information</p>
 						<div
 							className='
 						        my-2
@@ -212,13 +212,13 @@ const Privacy = () => {
 						</div>
 					</div>
 				</div>
-				<div className='flex flex-row items-center justify-between mx-10'>
+				<div className='flex flex-row items-center justify-between mx-10 my-2'>
 					<div></div>
 					<button
 						className='
 						        bg-[#AD00FF]
 							px-10
-							py-2
+							py-1
 							rounded-md
 						'
 					>

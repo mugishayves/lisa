@@ -45,6 +45,7 @@ const Sidebar: React.FC<SidebarProps> = ({ children }) => {
 		                                flex-col
 		                                bg-gradient-to-b from-[#0F0021] to-[#0F0021] , bg-[#F8F8F8]
 		                                rounded-[25px]
+						gap-2
 		                                py-2
 		                                px-4
 						my-1

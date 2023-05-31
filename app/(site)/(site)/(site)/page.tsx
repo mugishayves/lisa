@@ -1,5 +1,5 @@
 import DidUKnow from "./components/DidUKnow"
-import PostsPart from "./components/PostsPart"
+import PostsPart from "../../components/PostsPart"
 import Suggestions from "./components/Suggestions"
 
 const Home = () => {

@@ -14,12 +14,14 @@ const NavLink:React.FC<NavLinkProps> = ({label,href,last}) => {
 		<Link 
 		        href={href}
 			className={clsx (`
-			                hover:bg-white
-				        py-2	
+			                hover:bg-[#AD00FF]
+					rounded-t-[10px]
+				        py-1	
 				        border-b-[2px]
 					flex
 					flex-row
 					gap-10
+					px-4
 					`,
 					last && 'border-none'
 					)}
