@@ -17,7 +17,7 @@ const Post: React.FC<PostProps> = ({ posterUsername, posterName, posterPic, post
                         <div
                                 className="
                                 relative
-                                w-full
+                                w-[100%]
                                 my-4
                         ">
                                 <div
@@ -92,7 +92,7 @@ const Post: React.FC<PostProps> = ({ posterUsername, posterName, posterPic, post
                                                         items-center
                                                 "
                                                 >
-                                                        <BsHeartFill fill="red" />
+                                                        <BsHeartFill />
                                                         <p>0.9k</p>
                                                 </div>
                                         </div>

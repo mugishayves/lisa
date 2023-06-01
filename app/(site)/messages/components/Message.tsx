@@ -8,7 +8,10 @@ const Message = () => {
                                 flex-row
                                 items-center
                                 justify-between
-                                my-4
+                                my-2
+                                border-b-[1px]
+                                border-white
+                                py-2    
                         "
                 >
                         <div

@@ -7,8 +7,10 @@ const OnlinesChats = () => {
                 <div
                         className='
                         bg-gradient-to-b from-[#0F0021] to-[#0F0021] , bg-[#F8F8F8]
-                        rounded-md
-                        p-2
+                        rounded-[20px]
+                        p-4
+                        border-[#FF00C7]
+			border-[2px]
                 '
                 >
                         <p className="my-2">Amigos</p>

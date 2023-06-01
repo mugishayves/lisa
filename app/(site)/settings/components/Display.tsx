@@ -3,6 +3,7 @@
 import Link from "next/link"
 import { BiSearch } from "react-icons/bi"
 import { useState } from "react"
+import "../../../globals.css"
 
 const Display = () => {
 	const [activeTab, setActiveTab] = useState(0)
@@ -29,6 +30,62 @@ const Display = () => {
 			<div>
 				<p className="text-2xl">Font Customization</p>
 				<div className="h-[2px] bg-white w-full my-2" />
+				<p className="text-xl">Choose your font settings</p>
+				<div
+					className="
+					        flex
+						flex-row
+						gap-4
+						my-2
+					"
+				>
+					<p>Font</p>
+					<select className="bg-inherit w-[90%] border-[2px] rounded-md" id="formSelect">
+						<option value={"Tilt Neon"} className="bg-inherit w-full">Tilt Neon</option>
+						<option value={"Tilt Neon"} className="bg-inherit w-full">Tilt Neon</option>
+						<option value={"Tilt Neon"} className="bg-inherit w-full">Tilt Neon</option>
+						<option value={"Tilt Neon"} className="bg-inherit w-full">Tilt Neon</option>
+						<option value={"Tilt Neon"} className="bg-inherit w-full">Tilt Neon</option>
+						<option value={"Tilt Neon"} className="bg-inherit w-full">Tilt Neon</option>
+						<option value={"Tilt Neon"} className="bg-inherit w-full">Tilt Neon</option>
+						<option value={"Tilt Neon"} className="bg-inherit w-full">Tilt Neon</option>
+						<option value={"Tilt Neon"} className="bg-inherit w-full">Tilt Neon</option>
+						<option value={"Tilt Neon"} className="bg-inherit w-full">Tilt Neon</option>
+						<option value={"Tilt Neon"} className="bg-inherit w-full">Tilt Neon</option>
+						<option value={"Tilt Neon"} className="bg-inherit w-full">Tilt Neon</option>
+						<option value={"Tilt Neon"} className="bg-inherit w-full">Tilt Neon</option>
+						<option value={"Tilt Neon"} className="bg-inherit w-full">Tilt Neon</option>
+						<option value={"Tilt Neon"} className="bg-inherit w-full">Tilt Neon</option>
+						<option value={"Tilt Neon"} className="bg-inherit w-full">Tilt Neon</option>
+						<option value={"Tilt Neon"} className="bg-inherit w-full">Tilt Neon</option>
+						<option value={"Tilt Neon"} className="bg-inherit w-full">Tilt Neon</option>
+					</select>
+				</div>
+				<div
+					className="
+					        flex
+						flex-row
+						gap-4
+						my-2
+					"
+				>
+					<p>Font Size</p>
+					<input type="number" className="bg-inherit text-left border-[2px] rounded-md" />
+				</div>
+				<div
+					className="
+					        flex
+						flex-row
+						gap-4
+						my-2
+					"
+				>
+					<p>Font Weight</p>
+					<input type="number" className="bg-inherit text-left border-[2px] rounded-md" />
+				</div>
+				<div className="text-center my-5">
+					<p className="text-3xl">This is the text display of how the text will be</p>
+				</div>
 			</div>
 		)
 	}
@@ -38,6 +95,15 @@ const Display = () => {
 			<div>
 				<p className="text-2xl">Manage Your Notifications</p>
 				<div className="h-[2px] bg-white w-full my-2" />
+				<p>Choose the notifications</p>
+				<div className="flex flex-row flex-wrap">
+					<div className="bg-[#AD00FF] p-2 m-2 rounded-md">Amigo Suggestions</div>
+					<div className="bg-[#AD00FF] p-2 m-2 rounded-md">Amigo Suggestions</div>
+					<div className="bg-[#AD00FF] p-2 m-2 rounded-md">Amigo Suggestions</div>
+					<div className="bg-[#AD00FF] p-2 m-2 rounded-md">Amigo Suggestions</div>
+					<div className="bg-[#AD00FF] p-2 m-2 rounded-md">Amigo Suggestions</div>
+					<div className="bg-[#AD00FF] p-2 m-2 rounded-md">Amigo Suggestions</div>
+				</div>
 			</div>
 		)
 	}
@@ -46,6 +112,15 @@ const Display = () => {
 			<div>
 				<p className="text-2xl">Manage the ads you see</p>
 				<div className="h-[2px] bg-white w-full my-2" />
+				<p>Choose your the ads you may see</p>
+				<div className="flex flex-row flex-wrap">
+					<div className="bg-[#AD00FF] p-2 m-2 rounded-md">Cars</div>
+					<div className="bg-[#AD00FF] p-2 m-2 rounded-md">Bars</div>
+					<div className="bg-[#AD00FF] p-2 m-2 rounded-md">Jobs</div>
+					<div className="bg-[#AD00FF] p-2 m-2 rounded-md">Hospital</div>
+					<div className="bg-[#AD00FF] p-2 m-2 rounded-md">Shows</div>
+					<div className="bg-[#AD00FF] p-2 m-2 rounded-md">Insurance</div>
+				</div>
 			</div>
 		)
 	}
@@ -54,6 +129,15 @@ const Display = () => {
 			<div>
 				<p className="text-2xl">Manage your did you knows</p>
 				<div className="h-[2px] bg-white w-full my-2" />
+				<p>Choose some topics you would like to get some did you know from</p>
+				<div className="flex flex-row flex-wrap">
+					<div className="bg-[#AD00FF] p-2 m-2 rounded-md">Life</div>
+					<div className="bg-[#AD00FF] p-2 m-2 rounded-md">Health</div>
+					<div className="bg-[#AD00FF] p-2 m-2 rounded-md">Mentality</div>
+					<div className="bg-[#AD00FF] p-2 m-2 rounded-md">Society</div>
+					<div className="bg-[#AD00FF] p-2 m-2 rounded-md">Foods</div>
+					<div className="bg-[#AD00FF] p-2 m-2 rounded-md">Relationship</div>
+				</div>
 			</div>
 		)
 	}

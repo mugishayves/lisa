@@ -2,6 +2,7 @@ import Link from "next/link"
 import Status from "../(site)/(site)/components/Status"
 import { BsPlusCircle } from "react-icons/bs"
 import Posts from "../(site)/(site)/components/Posts"
+import "../../globals.css"
 
 const PostsPart = () => {
 	return (

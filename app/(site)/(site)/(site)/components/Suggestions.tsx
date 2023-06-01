@@ -1,17 +1,19 @@
 import Image from 'next/image'
 import React from 'react'
 import { BsPlusCircleFill } from 'react-icons/bs'
-
+import "../../../../globals.css"
 const Suggestions = () => {
         return (
                 <div
                         className='
                                 bg-gradient-to-b from-[#0F0021] to-[#0F0021] , bg-[#F8F8F8]
-                                rounded-md
-                                p-2
+                                rounded-[20px]
+                                border-[#FF00C7]
+				border-[2px]
+                                p-3
                         '
                 >
-                        <p>Notifications</p>
+                        <p className="gradient_texts">Notifications</p>
                         <div>
                                 <div
                                         className='
@@ -35,7 +37,7 @@ const Suggestions = () => {
                                                         <p className='text-xs'>@broony189</p>
                                                 </div>
                                         </div>
-                                        <BsPlusCircleFill />
+                                        <BsPlusCircleFill  fill="#FF00C7"/>
                                 </div>
                                 <div
                                         className='
@@ -59,10 +61,10 @@ const Suggestions = () => {
                                                         <p className='text-xs'>@broony189</p>
                                                 </div>
                                         </div>
-                                        <BsPlusCircleFill />
+                                        <BsPlusCircleFill  fill={"#FF00C7"}/>
                                 </div>
                         </div>
-                        <p>Suggestions</p>
+                        <p className="gradient_texts">Suggestions</p>
                         <div>
                                 <div
                                         className='
@@ -86,7 +88,7 @@ const Suggestions = () => {
                                                         <p className='text-xs'>@broony189</p>
                                                 </div>
                                         </div>
-                                        <BsPlusCircleFill />
+                                        <BsPlusCircleFill  fill="#FF00C7"/>
                                 </div>
                                 <div
                                         className='
@@ -110,7 +112,7 @@ const Suggestions = () => {
                                                         <p className='text-xs'>@broony189</p>
                                                 </div>
                                         </div>
-                                        <BsPlusCircleFill />
+                                        <BsPlusCircleFill  fill="#FF00C7"/>
                                 </div>
                                 <div
                                         className='
@@ -134,7 +136,7 @@ const Suggestions = () => {
                                                         <p className='text-xs'>@broony189</p>
                                                 </div>
                                         </div>
-                                        <BsPlusCircleFill />
+                                        <BsPlusCircleFill  fill="#FF00C7"/>
                                 </div>
                         </div>
                 </div>

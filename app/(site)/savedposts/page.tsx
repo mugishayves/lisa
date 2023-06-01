@@ -1,13 +1,14 @@
 import Link from 'next/link'
 import React from 'react'
-import SavedPost from './components/SavedPost'
-import PostsPart from '../components/PostsPart'
+import Posts from './components/Posts'
+
 
 const SavedPosts = () => {
 	return (
 		<div
 			className="
 				p-4 
+				overflow-y-hidden
 			"
 		>
 			<div
@@ -21,14 +22,32 @@ const SavedPosts = () => {
 				<p className='text-2xl'>Saved Posts</p>
 				<div className="h-1 w-full bg-[#AD00FF] my-4" />
 				<div
-			        className="
+					className="
+				        flex
+					flex-row
+					justify-between
+				"
+				>
+					<div
+						className="
+					        flex
+						flex-row
+						gap-3
+					"
+					>
+						<Link href={""} className="active:border-b[2px]">Posts</Link>
+						<Link href={""}>Twirls</Link>
+					</div>
+				</div>
+				<div
+					className="
 				        w-full
 					h-full
 					overflow-y-scroll
 				"
-			>
-				<PostsPart />
-			</div>
+				>
+					<Posts />
+				</div>
 			</div>
 		</div>
 	)

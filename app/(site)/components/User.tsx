@@ -12,7 +12,8 @@ const User = () => {
 		                flex-row
 		                gap-5
 		                bg-gradient-to-b from-[#13012B] to-[#13012B] , bg-[#F8F8F8]
-				bg-gradient-to-b from-[#0F0021] to-[#0F0021] , bg-[#F8F8F8]
+				border-[2px]
+				border-[#FF00C7]
 		                rounded-[25px]
 		                py-2
 		                px-4

@@ -28,6 +28,11 @@ body,
 	height: 100%;
 }
 
+#formSelect  *{
+	background-color: #0F0021;
+	border-bottom: 2px solid white;
+}
+
 .gradient_texts {
 	background: linear-gradient(42.75deg, #FF00C7 33.71%, #AD00FF 73.08%), #FFFFFF;
 	-webkit-background-clip: text;
